@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Simple Payment
 
-## Getting Started
+Project ini merupakan sebuah project untuk implementasi menggunakan payment
+gateway menggunakan Midtrans. Project ini berisi sebuah simulasi toko buku
+dengan payment gateway sendiri di dalam aplikasi tersebut.
 
-First, run the development server:
+[![Build](https://img.shields.io/github/followers/fajriyan)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffajriyan)
+[![Badges](https://img.shields.io/github/stars/fajriyan/simple-payment)]()
+[![Badges](https://img.shields.io/github/languages/code-size/fajriyan/simple-payment)]()
+[![Badges](https://img.shields.io/bower/l/react)]()
+[![Badges](https://img.shields.io/github/directory-file-count/fajriyan/simple-payment)]()
+[![Badges](https://img.shields.io/github/package-json/v/fajriyan/simple-payment?label=package%20json)]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Donation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If this project helps you, you can give it a cup of coffee. Thanks!
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [buymeacoffee](https://www.buymeacoffee.com/fajriyan)
+- [saweria](https://saweria.co/fajriyan)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<!--!
+## How to run it
 
-## Learn More
+Untuk menjalankan project ini kalian bisa melakukan dengan 2 cara, sebagai berikut :
 
-To learn more about Next.js, take a look at the following resources:
+### `Access Here (Online)`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Kalian bisa melakukan pengaksesan website secara online [disini](https://fajriyan.pages.dev/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### `Download Project (Run Offline)`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cara kedua bisa digunakan apabila ingin melakukan run dengan `offline` dengan langsung melakukan download project [disini](https://github.com/fajriyan/portfolio.git).
+-->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Support
+
+Project ini tentunya tidak lepas dari berbagai pihak yang telah membantu, oleh
+karena itu saya menyampaikan banyak 🙏Terimakasih kepada semua pihak yang sudah
+mendukung project ini sampai online. Berikut beberapa pihak yang terlibat pada
+project ini :
+
+- Midtrans (Payment Gateway)
+- Next JS (React JS)
+- Tailwind CSS
+
+<!-- ## Screenshot
+
+### Section Hightlight Gempa Terbaru
+![Annotation 2023-08-31 192813](https://github.com/fajriyan/info-gempa/assets/56616688/06d3bcf1-fdf5-4ab2-a92e-87e767b514a8)
+
+### Section Data Gempa yang dirasakan
+![Annotation 2023-08-31 192831](https://github.com/fajriyan/info-gempa/assets/56616688/2130d640-286b-47ed-a01f-0fac326f663a) -->
+
+### Changelog Update
+
+- [1.0.0] - first release siple payment
+
+<!-- ## Next Update
+-
+
+## Latest Issue
+-  -->
+
+### <a href="https://github.com/fajriyan/info-gempa/issues/new">📢Laporkan Masalah</a>
