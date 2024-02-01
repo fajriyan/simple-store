@@ -44,22 +44,25 @@ project ini :
 - Next JS (React JS)
 - Tailwind CSS
 
-<!-- ## Screenshot
+ ## Screenshot
 
-### Section Hightlight Gempa Terbaru
-![Annotation 2023-08-31 192813](https://github.com/fajriyan/info-gempa/assets/56616688/06d3bcf1-fdf5-4ab2-a92e-87e767b514a8)
+### Homepage simple payment (Toko Buku)
+![image](https://github.com/fajriyan/simple-payment/assets/56616688/6b371606-6b07-45f0-b939-65f84f5e268f)
 
-### Section Data Gempa yang dirasakan
-![Annotation 2023-08-31 192831](https://github.com/fajriyan/info-gempa/assets/56616688/2130d640-286b-47ed-a01f-0fac326f663a) -->
+
+### Checkout preview
+![image](https://github.com/fajriyan/simple-payment/assets/56616688/08528ba8-5aa5-49f3-83f7-cfe2f4519fe1)
+
+### Payment Success
+![image](https://github.com/fajriyan/simple-payment/assets/56616688/f26facd3-5acd-4513-97e9-2bf2bb4e0fb1)
+
+
 
 ### Changelog Update
 
 - [1.0.0] - first release siple payment
 
-<!-- ## Next Update
--
-
-## Latest Issue
--  -->
+## Next Update
+- add function cart
 
 ### <a href="https://github.com/fajriyan/info-gempa/issues/new">📢Laporkan Masalah</a>
