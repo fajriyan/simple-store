@@ -1,8 +1,10 @@
 "use client";
-
-import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const Checkout = ({ id, title, price, quantity }) => {
+  const router = useRouter();
+
   useEffect(() => {
     const snapMidtrans = "https://app.sandbox.midtrans.com/snap/snap.js";
     const clientKey = process.env.NEXT_PUBLIC_CLIENT;
@@ -36,6 +38,24 @@ const Checkout = ({ id, title, price, quantity }) => {
     window.snap.pay(requestData.token);
   };
 
+  const onCheckoutLink = async () => {
+    const dataLink = {
+      id,
+      title,
+      price,
+      quantity,
+    };
+    const res = await fetch("/api/pay-link", {
+      method: "POST",
+      body: JSON.stringify(dataLink),
+    });
+    const requestData = await res.json();
+    if (confirm(`Checkout produk : ${title}?`) == true) {
+      router.push(requestData.links.payment_url);
+    } else {
+    }
+  };
+
   return (
     <>
       <button
@@ -44,6 +64,7 @@ const Checkout = ({ id, title, price, quantity }) => {
       >
         Checkout
       </button>
+      <button onClick={onCheckoutLink}>link</button>
     </>
   );
 };
