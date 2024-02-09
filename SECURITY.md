@@ -15,5 +15,5 @@ this project uses next js version 14 with the router app and requires using Node
 
 please report if you find any bugs or security holes in this 'toolsz' system, 
 your help will be very helpful to me.<br>
-You can report [here](https://github.com/fajriyan/simple-payment/issues/new), or click on the issues tab.
+You can report [here](https://github.com/fajriyan/simple-payment/issues/new), or click on the issues tab in repository.
 
