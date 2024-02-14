@@ -64,5 +64,7 @@ project ini :
 
 ## Next Update
 - add function cart
+- create login
+- create dashboard
 
 ### <a href="https://github.com/fajriyan/info-gempa/issues/new">📢Laporkan Masalah</a>
