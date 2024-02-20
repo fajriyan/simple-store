@@ -1,12 +1,34 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 const Cart = ({ id, img, title, price, quantity }) => {
+  const [c, setC] = useState([]);
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(c));
+  }, [c]);
+
+  const keranjang = () => {
+    setC([
+      ...c,
+      {
+        id: id,
+        image: img,
+        title: title,
+        prices: price,
+        q: Number(quantity),
+        // q: Number(quantity) + Number(qu),
+      },
+    ]);
+  };
+
   const onCart = () => {
     const qb = localStorage.getItem("cart");
     const qbb = JSON.parse(qb);
     const qu = qbb?.q || 0;
 
-    console.log(qu);
+    // console.log(qu);
     localStorage.setItem(
       "cart",
       JSON.stringify({
@@ -14,20 +36,17 @@ const Cart = ({ id, img, title, price, quantity }) => {
         image: img,
         title: title,
         prices: price,
-        q: Number(quantity) + Number(qu),
+        // q: Number(quantity) + Number(qu),
+        q: Number(quantity),
       })
     );
-    // localStorage.setItem("img", img);
-    // localStorage.setItem("title", title);
-    // localStorage.setItem("price", price);
-    // localStorage.setItem("q", Number(qb) + Number(quantity));
     alert("berhasil");
   };
 
   return (
     <div>
       <button
-        onClick={onCart}
+        onClick={keranjang}
         className="mt-2 bg-slate-900 hover:scale-105 transition-all duration-300 px-3 py-2 text-xs font-medium uppercase tracking-wide text-white rounded-md flex items-center gap-2"
       >
         <svg
