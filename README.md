@@ -44,6 +44,9 @@ project ini :
 - Next JS (React JS)
 - Tailwind CSS
 
+## next 
+- [] deploy
+
  ## Screenshot
 
 ### Homepage simple payment (Toko Buku)
