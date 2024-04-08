@@ -45,7 +45,8 @@ project ini :
 - Tailwind CSS
 
 ## next 
-- [] deploy
+- [ ] deploy
+- [ ] create cart product
 
  ## Screenshot
 
