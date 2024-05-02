@@ -47,6 +47,8 @@ project ini :
 ## next 
 - [ ] deploy
 - [ ] create cart product
+- [ ] create dashboard
+- [ ] create login integrated
 
  ## Screenshot
 
